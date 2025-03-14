@@ -139,6 +139,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "raphiis-steamvr-crash-recovery"
+version = "0.1.0"
+dependencies = [
+ "directories",
+ "sysinfo",
+]
+
+[[package]]
 name = "rayon"
 version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -167,14 +175,6 @@ dependencies = [
  "getrandom",
  "libredox",
  "thiserror",
-]
-
-[[package]]
-name = "steamvr-vrchat-crash-fixer"
-version = "0.1.0"
-dependencies = [
- "directories",
- "sysinfo",
 ]
 
 [[package]]
