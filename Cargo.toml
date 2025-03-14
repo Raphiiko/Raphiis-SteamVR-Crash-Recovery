@@ -1,0 +1,8 @@
+[package]
+name = "steamvr-vrchat-crash-fixer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.33.1"
+directories = "6.0.0"
